@@ -22,4 +22,14 @@ else:
 
 # student result: pass or fail ?
 
+#nested if else
+
+x = 7
+
+if x > 0:
+    if x % 2 == 0: # nested if else
+        print('x is a even number')
+    else:
+        print('x is a odd number')
+
 
